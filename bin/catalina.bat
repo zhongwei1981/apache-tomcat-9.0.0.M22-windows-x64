@@ -101,6 +101,8 @@ rem ---------------------------------------------------------------------------
 
 setlocal
 
+set "JAVA_HOME=D:\Java\jdk1.8.0_25"
+
 rem Suppress Terminate batch job on CTRL+C
 if not ""%1"" == ""run"" goto mainEntry
 if "%TEMP%" == "" goto mainEntry
